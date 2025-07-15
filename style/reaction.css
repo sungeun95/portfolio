@@ -1,0 +1,115 @@
+@media screen and (max-width:1349px){ /* 태블릿 */
+    header{padding: 0 80px;}
+    header nav>a{font-size: 0.875rem; white-space: nowrap; margin-right: 15px;}
+    header nav>a:last-child{margin-right: 0px;}
+    /* ====================================== intro : s */
+    #wrap .intro .container{padding: 0 80px;}
+    #wrap .intro .container .title{
+        flex-flow: column nowrap;
+        align-content: center;}
+    #wrap .intro .container .title h1{
+        font-size: 6rem; font-family: "Bebas Neue";
+        margin-right: 0;
+    }
+    #wrap .intro .container .title h1>em{
+        font-size: 6rem; font-family: "Bebas Neue";
+    }
+    #wrap .intro .container .title .text p:nth-child(1){font-size: 0.875rem;}
+    #wrap .intro .container .title .text p:nth-child(2){font-size: 1rem;}
+    /* ====================================== intro : e */
+    /* ====================================== profile : s */
+    #wrap .profile .profile_title{font-size: 1rem;}
+    #wrap .profile .profile_title>samp{color: #000; font-size: 1rem;}
+    #wrap .profile .container{
+        flex-flow: column nowrap; justify-content: center; align-content: center;
+        margin: 0 auto; 
+    }
+    #wrap .profile .container .profile_left{width: 70%;}
+    #wrap .profile .container .profile_left h2{font-size: 1.75rem; margin-bottom: 30px;}
+    #wrap .profile .container .profile_left .info{margin-bottom: 20px;}
+    #wrap .profile .container .profile_left .info>li>ul{margin-top: 10px;}
+    #wrap .profile .container .profile_left .info>li>ul>li{margin-right: 15px; font-size: 0.875em;}
+    #wrap .profile .container .profile_left .mbti>p{font-weight: 500; margin-right: 20px;}
+    #wrap .profile .container .profile_left .mbti .mbti_text{margin-bottom: 40px;}
+    #wrap .profile .container .profile_left .mbti .mbti_text>p{margin-bottom: 8px; font-size: 0.875rem;}
+    #wrap .profile .container .profile_right{width: 70%;}
+    #wrap .profile .container .profile_right .career{margin-bottom: 20px;}
+    #wrap .profile .container .profile_right .career>li{margin-bottom: 8px; font-size: 0.875rem;}
+    #wrap .profile .container .profile_right .skills .skills_box{
+        width: 100%;
+    }
+    #wrap .profile .container .profile_right .skills .skills_box>span{
+        margin-right: 10px; 
+        width: 50px; height: 50px;
+    }
+    /* ====================================== profile : e */
+}
+@media screen and (max-width:799px){ /* 모바일 */
+    header{padding: 10px; position: relative; z-index: 20;}
+    header .menu{
+        display: flex; width: 100%; height: 100%; 
+        position: absolute; top: 0; left: 0;
+        background-color: #fff;
+        text-align: center; flex-flow: column nowrap;
+        align-items: center; padding: 10px;
+        z-index: 20;
+    }
+    header .menu>span{
+        display:block; width: 20px; height: 6px; 
+        background-color: #000; 
+    }
+    header .menu>span:nth-child(2){margin: 2px 0;}
+    header nav{
+        display: block; width: 90%; margin: 0 auto;
+        position: absolute; top: 40px; left: 50%; transform: translateX(-50%) translateY(-1000px);
+        border-radius: 0 0 30px 30px; padding: 0 20px 15px; z-index: 10; background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd; z-index: 19;
+    }
+    header .menu:hover >span{
+        background-color: #00D6FF;
+    }
+    header:hover nav{
+        transform:translateX(-50%) translateY(0px);
+    }
+    /* ====================================== intro : s */
+    #wrap .intro .container{
+        flex-flow: column nowrap;
+        justify-content: center; /* 가로 중앙 정렬 */
+        align-items: center; /* 세로 중앙 정렬 */
+    }
+    #wrap .intro .container .video{margin-right: 0;}
+    #wrap .intro .container .title h1{
+        font-size: 6rem; font-family: "Bebas Neue";
+        margin-right: 0; 
+    }
+    #wrap .intro .container .title h1>em{
+        font-size: 6rem; font-family: "Bebas Neue";
+    }
+    #wrap .intro .container .title .text{text-align: center;}
+    /* ====================================== intro : e */
+    /* ====================================== profile : s */
+    #wrap .profile .profile_title{font-size: 0.75rem;}
+    #wrap .profile .profile_title>samp{color: #000; font-size: 0.75rem;}
+    #wrap .profile .container{padding: 0 10px;}
+    #wrap .profile .container .profile_left{width: 100%;}
+    #wrap .profile .container .profile_left h2{font-size: 1.25rem; margin-bottom: 30px;}
+    #wrap .profile .container .profile_left .info{margin-bottom: 15px;}
+    #wrap .profile .container .profile_left .info>li>ul{margin-top: 10px;}
+    #wrap .profile .container .profile_left .info>li>ul>li{margin-right: 10px; font-size: 0.625em;}
+    #wrap .profile .container .profile_left .mbti>p{font-weight: 500; margin-right: 15px;}
+    #wrap .profile .container .profile_left .mbti .mbti_text{margin-bottom: 20px;}
+    #wrap .profile .container .profile_left .mbti .mbti_text>p{margin-bottom: 5%; font-size: 0.625rem;}
+    #wrap .profile .container .profile_right{width: 100%;}
+    #wrap .profile .container .profile_right .career{margin-bottom: 15px;}
+    #wrap .profile .container .profile_right .career>li{margin-bottom: 5px; font-size: 0.625rem;}
+    #wrap .profile .container .profile_right .skills .skills_box{
+        width: 100%;
+    }
+    #wrap .profile .container .profile_right .skills .skills_box>span{
+        margin-right: 10px; 
+        width: 50px; height: 50px;
+    }
+    /* ====================================== profile : e */
+}
