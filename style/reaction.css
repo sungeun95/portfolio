@@ -8,11 +8,11 @@
         flex-flow: column nowrap;
         align-content: center;}
     #wrap .intro .container .title h1{
-        font-size: 6rem; font-family: "Bebas Neue";
+        font-size: 6.5rem; font-family: "Bebas Neue";
         margin-right: 0;
     }
     #wrap .intro .container .title h1>em{
-        font-size: 6rem; font-family: "Bebas Neue";
+        font-size: 6.5rem; font-family: "Bebas Neue";
     }
     #wrap .intro .container .title .text p:nth-child(1){font-size: 0.875rem;}
     #wrap .intro .container .title .text p:nth-child(2){font-size: 1rem;}
@@ -43,7 +43,44 @@
         width: 50px; height: 50px;
     }
     /* ====================================== profile : e */
+    /* ====================================== responsive_project : s */
+    .responsive_project .swiper-slide .container{flex-flow: column nowrap;}
+    .responsive_project .swiper-slide .container .responsive_project_text{width: 100%; padding: 50px 80px;}
+    .responsive_project .swiper-slide .container .responsive_project_text h2{font-size: 1.25rem;  margin-bottom: 60px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text{margin-bottom: 20px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text li{font-size: 0.875rem;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text li:first-child{
+        font-size: 1.125rem; margin-bottom: 8px;
+    }
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .text_details{margin-bottom: 50px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .text_details li{
+        margin-bottom: 5px;font-size: 0.875rem;
+    }
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .text_details li>span{margin-left: 5px;}
+    .responsive_project .swiper-slide .container .responsive_project_img{width: 100%; height: 100%;}
+    /* ====================================== responsive_project : e */
+    /* ====================================== Product_LandingPage : s */
+    .product_landingPage .container h2{font-size: 1.25rem;}
+    .product_landingPage .container{
+        display: flex; flex-flow: column nowrap;
+        justify-content: center; align-content: center;
+        width: 100%; height: 100%;
+        padding: 80px;
+    }
+    .product_landingPage .container .swiper_box #top_swiper .swiper-slide{ height: 400px;}
+    /* ====================================== Product_LandingPage : e */
+    /* ====================================== contact : s */
+    .contact .container h2{font-size: 6.5rem; margin-bottom: 30px;}
+    .contact .container>p{margin-bottom: 60px;}
+    .contact .container .contact_means>p:last-child{width: 120px; }
+    /* ====================================== contact : e */
+
 }
+
+
+
+
+
 @media screen and (max-width:799px){ /* 모바일 */
     header{padding: 10px; position: relative; z-index: 20;}
     header .menu{
@@ -73,6 +110,7 @@
     header:hover nav{
         transform:translateX(-50%) translateY(0px);
     }
+    header nav>a::after,header nav>a::before{display: none;}
     /* ====================================== intro : s */
     #wrap .intro .container{
         flex-flow: column nowrap;
@@ -107,12 +145,33 @@
     #wrap .profile .container .profile_right{width: 100%;}
     #wrap .profile .container .profile_right .career{margin-bottom: 15px;}
     #wrap .profile .container .profile_right .career>li{margin-bottom: 5px; font-size: 0.625rem;}
-    #wrap .profile .container .profile_right .skills .skills_box{
-        width: 100%;
-    }
+    #wrap .profile .container .profile_right .skills .skills_box{width: 100%;}
     #wrap .profile .container .profile_right .skills .skills_box>span{
         margin-right: 10px; 
         width: 50px; height: 50px;
     }
     /* ====================================== profile : e */
+    /* ====================================== responsive_project : s */
+    .responsive_project .swiper-slide .container .responsive_project_text{width: 100%; padding: 10px 10px;}
+    .responsive_project .swiper-slide .container .responsive_project_text h2{font-size: 1rem;  margin-bottom: 30px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text{margin-bottom: 15px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text li{font-size: 0.625rem;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text li:first-child{
+        font-size: 1rem; margin-bottom: 8px;
+    }
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .text_details{margin-bottom: 40px;}
+    .responsive_project .swiper-slide .container .responsive_project_text .textbox .text_details li{font-size: 0.625rem;}
+    .responsive_project .swiper-slide .container .responsive_project_text .btn_box>a{font-size: 0.625rem;}
+    /* ====================================== responsive_project : e */
+    /* ====================================== Product_LandingPage : s */
+    .product_landingPage {width: 100%; height: 100%;}
+    .product_landingPage .container {padding: 10px;}
+    .product_landingPage .container h2{font-size: 1rem;  margin-bottom: 30px;}
+    .product_landingPage .container .swiper_box #top_swiper .swiper-slide{ height: 300px;}
+    /* ====================================== Product_LandingPage : e */
+    /* ====================================== contact : s */
+    .contact .container h2{font-size: 6rem; margin-bottom: 20px;}
+    .contact .container>p{margin-bottom: 50px;}
+    .contact .container .contact_means>p:last-child{width: 120px; }
+    /* ====================================== contact : e */
 }
