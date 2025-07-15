@@ -98,9 +98,12 @@
     #wrap .profile .container .profile_left .info{margin-bottom: 15px;}
     #wrap .profile .container .profile_left .info>li>ul{margin-top: 10px;}
     #wrap .profile .container .profile_left .info>li>ul>li{margin-right: 10px; font-size: 0.625em;}
-    #wrap .profile .container .profile_left .mbti>p{font-weight: 500; margin-right: 15px;}
+    #wrap .profile .container .profile_left .mbti>p{font-weight: 500; margin-right: 15px; font-size: 0.7rem;}
     #wrap .profile .container .profile_left .mbti .mbti_text{margin-bottom: 20px;}
     #wrap .profile .container .profile_left .mbti .mbti_text>p{margin-bottom: 5%; font-size: 0.625rem;}
+    #wrap .profile .container .profile_left .license>li>ul>li{margin-bottom: -5px;}
+    #wrap .profile .container .profile_left .license>li>ul>li>span{font-size: 0.625rem;}
+    #wrap .profile .container .profile_left .license>li>ul>li>em{font-size: 0.625rem;}
     #wrap .profile .container .profile_right{width: 100%;}
     #wrap .profile .container .profile_right .career{margin-bottom: 15px;}
     #wrap .profile .container .profile_right .career>li{margin-bottom: 5px; font-size: 0.625rem;}
