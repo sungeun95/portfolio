@@ -1,7 +1,7 @@
 body *{transition: all 0.5s; line-height: 1.5;font-family: 'Pretendard';}
 header{
     width: 100%; height: 40px; position: fixed; left: 0; top: 0; z-index: 10;
-    background-color: #fff;
+    background-color: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 header .menu{display: none}
 header nav{
@@ -42,15 +42,15 @@ header nav>a:hover::before{width: 50%;}
     margin-right: 30px;
 }
 #wrap .intro .container .video>video{width: 100%;}
-#wrap .intro .container .title{ display: flex; align-items: center;}
+#wrap .intro .container .title{}
 #wrap .intro .container .title h1{
-font-family: "Bebas Neue"; font-size: 7.5rem;
+font-family: "Bebas Neue"; font-size: 12rem;
 margin-right: 30px;
 }
 #wrap .intro .container .title h1>em{
-font-family: "Bebas Neue"; font-size: 7.5rem; color: #00D6FF;
+font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 }
-#wrap .intro .container .title .text{}
+#wrap .intro .container .title .text{transform: scale(1.3) translateX(12%);}
 #wrap .intro .container .title .text p{
     text-transform:uppercase;
 }
@@ -190,13 +190,13 @@ font-family: "Bebas Neue"; font-size: 7.5rem; color: #00D6FF;
     justify-content: center; align-items: center; height: 100%;
 }
 .contact .container h2{
-    font-family: "Bebas Neue"; font-size: 7.5rem; margin-bottom: 50px;
+    font-family: "Bebas Neue"; font-size: 12rem; margin-bottom: 50px;
 }
 .contact .container h2>em{
     font-family: "Bebas Neue"; color: #00D6FF;
 }
 .contact .container>p{
-    font-size: 0.825rem; margin-bottom: 100px; font-weight: 600;
+    font-size: 1.3rem; margin-bottom: 100px; line-height: 1.8;
 }
 .contact .container .contact_means{}
 .contact .container .contact_means>p{
@@ -223,7 +223,7 @@ font-family: "Bebas Neue"; font-size: 7.5rem; color: #00D6FF;
     transform: translateX(-50%);
 }
 .popup_bg .popup img{width: 100%;}
-/* ==================  디자인 프로젝트 실행 팝업(배너_ */ 
+/* ==================  디자인 프로젝트 실행 팝업(배너) */ 
 .popup_bg_b {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%; height: 100vh;
@@ -232,7 +232,7 @@ font-family: "Bebas Neue"; font-size: 7.5rem; color: #00D6FF;
     display: none;
 }
 .popup_bg_b .popup{
-    max-width: 1000px; min-width: 320px;  
+    max-width: 800px; min-width: 320px;  
     overflow:auto; margin: 0 auto; 
     position: absolute; left:50%; top:50%;
     transform: translate(-50%,-50%);

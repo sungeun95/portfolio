@@ -8,12 +8,13 @@
         flex-flow: column nowrap;
         align-content: center;}
     #wrap .intro .container .title h1{
-        font-size: 6.5rem; font-family: "Bebas Neue";
+        font-size: 8rem; font-family: "Bebas Neue";
         margin-right: 0;
     }
     #wrap .intro .container .title h1>em{
-        font-size: 6.5rem; font-family: "Bebas Neue";
+        font-size: 8rem; font-family: "Bebas Neue";
     }
+    
     #wrap .intro .container .title .text p:nth-child(1){font-size: 0.875rem;}
     #wrap .intro .container .title .text p:nth-child(2){font-size: 1rem;}
     /* ====================================== intro : e */
@@ -125,7 +126,7 @@
     #wrap .intro .container .title h1>em{
         font-size: 6rem; font-family: "Bebas Neue";
     }
-    #wrap .intro .container .title .text{text-align: center;}
+    #wrap .intro .container .title .text{text-align: center; transform: scale(1.3) translateX(0);}
     /* ====================================== intro : e */
     /* ====================================== profile : s */
     #wrap .profile .profile_title{font-size: 0.75rem;}
@@ -173,5 +174,6 @@
     .contact .container h2{font-size: 6rem; margin-bottom: 20px;}
     .contact .container>p{margin-bottom: 50px;}
     .contact .container .contact_means>p:last-child{width: 120px; }
+    .contact .container>p{font-size: 1rem;}
     /* ====================================== contact : e */
 }
