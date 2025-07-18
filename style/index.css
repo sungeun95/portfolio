@@ -103,13 +103,13 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 #wrap .profile .container .profile_right .skills .skills_box>span{
     display: block; width: 60px; height: 60px; margin-right: 15px;
 }
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(1){background-color: pink;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(2){background-color: sandybrown;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(3){background-color: khaki;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(4){background-color: yellowgreen;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(5){background-color: skyblue;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(6){background-color: royalblue;}
-#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(7){background-color: plum;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(1){background: url(../images/icon/ps.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(2){background: url(../images/icon/ai.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(3){background: url(../images/icon/fi.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(4){background: url(../images/icon/html.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(5){background: url(../images/icon/css.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(6){background: url(../images/icon/js.png) center/cover;}
+#wrap .profile .container .profile_right .skills .skills_box>span:nth-child(7){background: url(../images/icon/git.png) center/cover;}
 #wrap .profile .container .profile_right .skills .skills_box>span:last-child{margin-right: 0px;}
 /* ==================  profile : e */ 
 /* ==================  responsive_project : s */ 
@@ -122,7 +122,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     width: 37.5%; padding: 100px;
 }
 .responsive_project .swiper-slide .container .responsive_project_text h2{
-    font-size: 1.563rem; font-weight: 600; color: #00D6FF; margin-bottom: 200px;
+    font-size: 1.563rem; font-weight: 600; color: #00D6FF; margin-bottom: 200px; text-transform: uppercase;
 }
 .responsive_project .swiper-slide .container .responsive_project_text .textbox {}
 .responsive_project .swiper-slide .container .responsive_project_text .textbox .rp_text{margin-bottom: 40px;}
@@ -150,11 +150,10 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:last-child:hover{
     background-color: #888; color: #fff; border: 1px solid #888;
 }
-.responsive_project .swiper-slide .container .responsive_project_img{width: 62.5%; background-color: red;}
-.responsive_project .swiper-slide .container .responsive_project_img p{width: 100%; height: 100%;
-    background-color: blue;}
+.responsive_project .swiper-slide .container .responsive_project_img{width: 62.5%;}
+.responsive_project .swiper-slide .container .responsive_project_img p{width: 100%; height: 100%;}
 .responsive_project .hera .container .responsive_project_img p{background: url(../images/hera.jpg) center/cover;}
-.responsive_project .marshall .container .responsive_project_img p{/* 마샬 */}
+.responsive_project .marshall .container .responsive_project_img p{/* 마샬 */ background-color: blue;}
 /* ==================  responsive_project : e */ 
 /* ==================  Product_LandingPage : s */ 
 .product_landingPage{width: 100%;}
@@ -165,7 +164,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     margin: 0 auto;
 }
 .product_landingPage .container h2{
-    font-size: 1.563rem; font-weight: 600; color: #00D6FF; margin-bottom: 50px; text-align: center;
+    font-size: 1.563rem; font-weight: 600; color: #00D6FF; margin-bottom: 50px; text-align: center;text-transform: uppercase;
 }
 .product_landingPage .container .swiper_box{width: 100%; padding: 15px;}
 .product_landingPage .container .swiper_box .swiper .swiper-wrapper{transition-timing-function: linear;}
