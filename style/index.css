@@ -152,8 +152,10 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 }
 .responsive_project .swiper-slide .container .responsive_project_img{width: 62.5%;}
 .responsive_project .swiper-slide .container .responsive_project_img p{width: 100%; height: 100%;}
+.responsive_project .marshall .container .responsive_project_img p{background: url(../images/marshall.jpg) center/cover;}
 .responsive_project .hera .container .responsive_project_img p{background: url(../images/hera.jpg) center/cover;}
-.responsive_project .marshall .container .responsive_project_img p{/* 마샬 */ background-color: blue;}
+.responsive_project .whitegown .container .responsive_project_img p{background: url(../images/whitegown.jpg) center/cover;}
+/*.responsive_project .landingPage .container .responsive_project_img p{랜딩페이지 background-color: blue;}*/
 /* ==================  responsive_project : e */ 
 /* ==================  Product_LandingPage : s */ 
 .product_landingPage{width: 100%;}
