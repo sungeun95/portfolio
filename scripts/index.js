@@ -93,10 +93,10 @@ const snsProjectB = document.querySelectorAll('#bottom_swiper .swiper-slide');
 const popupB = document.querySelector('.popup_bg_b');
 
 console.log(snsProjectB,popupB);
-for(let sns of snsProjectB){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
-    sns.addEventListener('click',()=>{
+for(let sns1 of snsProjectB){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
+    sns1.addEventListener('click',()=>{
         popupB.style.display = 'block';
-        popupB.children[0].children[0].src = sns.children[0].src;
+        popupB.children[0].children[0].src = sns1.children[0].src;
         //팝업 실행 시 전체 수직 Swiper 스크롤 기능 막기
         wrap.mousewheel.disable();//스크롤 풀기 = enable()
     })
