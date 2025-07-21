@@ -7,10 +7,10 @@ const wrap = new Swiper('#wrap',{
 //프로젝트 슬라이드
 const projevt1 = new Swiper('#project_swiper',{
     loop:true,/* 반복 */
-/*     autoplay:{
+    autoplay:{
 	    delay:3500,
         disableOnInteraction:false,
-    }, */
+    },
 })
 
 

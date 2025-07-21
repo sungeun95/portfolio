@@ -151,7 +151,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     margin-right: 0px; background-color: #F8F8F8; color: #888; border: 1px solid #F8F8F8;
 }
 .responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:last-child:hover,
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3)
+.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3):hover
 {
     background-color: #888; color: #fff; border: 1px solid #888;
 }
@@ -160,7 +160,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .responsive_project .marshall .container .responsive_project_img p{background: url(../images/marshall.jpg) center/cover;}
 .responsive_project .hera .container .responsive_project_img p{background: url(../images/hera.jpg) center/cover;}
 .responsive_project .whitegown .container .responsive_project_img p{background: url(../images/whitegown.jpg) center/cover;}
-/*.responsive_project .landingPage .container .responsive_project_img p{랜딩페이지 background-color: blue;}*/
+.responsive_project .landing_page .container .responsive_project_img p{background: url(../images/landing_page.jpg) center/cover;}
 /* ==================  responsive_project : e */ 
 /* ==================  Product_LandingPage : s */ 
 .product_landingPage{width: 100%;}
@@ -177,7 +177,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .product_landingPage .container .swiper_box .swiper .swiper-wrapper{transition-timing-function: linear;}
 .product_landingPage .container .swiper_box .swiper .swiper-slide img{ transform: scale(1)}
 .product_landingPage .container .swiper_box .swiper .swiper-slide{
-    cursor: pointer;/* 마우스 올리면 손가락아이콘이 나옴 */
+    cursor: pointer;/* 마우스 올리면 손가락아이콘이 나온다 */
     transition: transform 0.3s; overflow: hidden;
 }
 .product_landingPage .container .swiper_box .swiper .swiper-slide:hover img{transform: scale(1.009)}
