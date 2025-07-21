@@ -7,10 +7,10 @@ const wrap = new Swiper('#wrap',{
 //프로젝트 슬라이드
 const projevt1 = new Swiper('#project_swiper',{
     loop:true,/* 반복 */
-    autoplay:{
-	    delay:2000,
+/*     autoplay:{
+	    delay:3500,
         disableOnInteraction:false,
-    },
+    }, */
 })
 
 
@@ -71,14 +71,14 @@ const bottom_swiper = new Swiper('#bottom_swiper',{
 
 
 //SNS 프로젝트 클릭 시 팝업 실행(클릭한 이미지가 팝업 이미지로 교체)
-const snsProject = document.querySelectorAll('#top_swiper  .swiper-slide');
+const detailsProject = document.querySelectorAll('#top_swiper  .swiper-slide');
 const popup = document.querySelector('.popup_bg');
 
-console.log(snsProject,popup);
-for(let sns of snsProject){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
-    sns.addEventListener('click',()=>{
+console.log(detailsProject,popup);
+for(let details of detailsProject){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
+    details.addEventListener('click',()=>{
         popup.style.display = 'block';
-        popup.children[0].children[0].src = sns.children[0].src;
+        popup.children[0].children[0].src = details.children[0].src;
         //팝업 실행 시 전체 수직 Swiper 스크롤 기능 막기
         wrap.mousewheel.disable();//스크롤 풀기 = enable()
     })
@@ -89,14 +89,14 @@ popup.addEventListener('click',()=>{
     wrap.mousewheel.enable();
 })
 
-const snsProjectB = document.querySelectorAll('#bottom_swiper .swiper-slide');
+const bannerProjectB = document.querySelectorAll('#bottom_swiper .swiper-slide');
 const popupB = document.querySelector('.popup_bg_b');
 
-console.log(snsProjectB,popupB);
-for(let sns1 of snsProjectB){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
-    sns1.addEventListener('click',()=>{
+console.log(bannerProjectB,popupB);
+for(let banner of bannerProjectB){/* snsProject의 변수 모두를 sns 변수에 담겠다. */
+    banner.addEventListener('click',()=>{
         popupB.style.display = 'block';
-        popupB.children[0].children[0].src = sns1.children[0].src;
+        popupB.children[0].children[0].src = banner.children[0].src;
         //팝업 실행 시 전체 수직 Swiper 스크롤 기능 막기
         wrap.mousewheel.disable();//스크롤 풀기 = enable()
     })
