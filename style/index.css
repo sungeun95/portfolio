@@ -184,7 +184,6 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .product_landingPage .container .swiper_box #top_swiper{margin-bottom: 20px;}
 .product_landingPage .container .swiper_box #top_swiper .swiper-slide{ height: 500px;}
 .product_landingPage .container .swiper_box #top_swiper .swiper-slide img{width: 100%;}
-.product_landingPage .container .swiper_box #bottom_swiper{}
 .product_landingPage .container .swiper_box #bottom_swiper .swiper-slide{height: 150px;}
 .product_landingPage .container .swiper_box #bottom_swiper .swiper-slide img{width: 100%;}
 /* ==================  Product_LandingPage : e */ 
