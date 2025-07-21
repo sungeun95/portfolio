@@ -177,7 +177,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .product_landingPage .container .swiper_box .swiper .swiper-wrapper{transition-timing-function: linear;}
 .product_landingPage .container .swiper_box .swiper .swiper-slide img{ transform: scale(1)}
 .product_landingPage .container .swiper_box .swiper .swiper-slide{
-    cursor: pointer;/* 마우스 올리면 손가락아이콘이 나온다 */
+    cursor: pointer;/* 마우스 올리면 손가락아이콘이 나옴 */
     transition: transform 0.3s; overflow: hidden;
 }
 .product_landingPage .container .swiper_box .swiper .swiper-slide:hover img{transform: scale(1.009)}
