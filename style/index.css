@@ -151,7 +151,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     margin-right: 0px; background-color: #F8F8F8; color: #888; border: 1px solid #F8F8F8;
 }
 .responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:last-child:hover,
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3):hover
+.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3)
 {
     background-color: #888; color: #fff; border: 1px solid #888;
 }
@@ -184,7 +184,6 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .product_landingPage .container .swiper_box #top_swiper{margin-bottom: 20px;}
 .product_landingPage .container .swiper_box #top_swiper .swiper-slide{ height: 500px;}
 .product_landingPage .container .swiper_box #top_swiper .swiper-slide img{width: 100%;}
-.product_landingPage .container .swiper_box #bottom_swiper{}
 .product_landingPage .container .swiper_box #bottom_swiper .swiper-slide{height: 150px;}
 .product_landingPage .container .swiper_box #bottom_swiper .swiper-slide img{width: 100%;}
 /* ==================  Product_LandingPage : e */ 
