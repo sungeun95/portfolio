@@ -8,13 +8,13 @@ const wrap = new Swiper('#wrap',{
 const projevt1 = new Swiper('#project_swiper',{
     loop:true,/* 반복 */
     autoplay:{
-	    delay:3500,
+	    delay:2500,
         disableOnInteraction:false,
     },
 })
 
 
-//내베게이션 클릭 시 해당 위치 수직 스와이프로 이동
+//내비게이션 클릭 시 해당 위치 수직 스와이프로 이동
 const nav = document.querySelectorAll('nav a');
 //수직스와이프 이동 함수
 //수직스와이프변수명.slideTop(이동인덱스값, 지속시간)
