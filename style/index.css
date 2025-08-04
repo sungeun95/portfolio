@@ -2,6 +2,7 @@ body *{transition: all 0.5s; line-height: 1.5;font-family: 'Pretendard';}
 header{
     width: 100%; height: 40px; position: fixed; left: 0; top: 0; z-index: 10;
     background-color: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    
 }
 header .menu{display: none}
 header nav{
@@ -16,12 +17,12 @@ header nav>a{
 }
 header nav>a:hover{color: #00D6FF;}
 header nav>a::after{
-    content: ""; position: absolute; left: 50%; bottom: 0;
+    content: ""; position: absolute; left: 50%; bottom: 1px;
     width: 0%; height: 1px; background-color: #00D6FF;
     transition: width 0.5s; z-index: 11;
 }
 header nav>a::before{
-    content: ""; position: absolute; right: 50%; bottom: 0;
+    content: ""; position: absolute; right: 50%; bottom: 1px;
     width: 0%; height: 1px; background-color: #00D6FF;
     transition: width 0.5s; z-index: 11;
 }
@@ -169,11 +170,12 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     justify-content: center; align-content: center;
     max-width: 1400px; min-width: 320px; height: 100%; padding:80px;
     margin: 0 auto;
+    
 }
 .product_landingPage .container h2{
     font-size: 1.563rem; font-weight: 600; color: #00D6FF; margin-bottom: 50px; text-align: center;text-transform: uppercase;
 }
-.product_landingPage .container .swiper_box{width: 100%; padding: 15px;}
+.product_landingPage .container .swiper_box{width: 100%;}
 .product_landingPage .container .swiper_box .swiper .swiper-wrapper{transition-timing-function: linear;}
 .product_landingPage .container .swiper_box .swiper .swiper-slide img{ transform: scale(1)}
 .product_landingPage .container .swiper_box .swiper .swiper-slide{
@@ -195,6 +197,15 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
     text-align: center; display: flex; flex-flow: column nowrap;
     justify-content: center; align-items: center; height: 100%;
 }
+.contact .container .box{
+    width: 52px; height: 52px; display: flex; flex-flow: row wrap; 
+    margin-bottom: -30px;
+}
+.contact .container .box span{
+    display: block; width: 20px; height: 20px; background-color: #00D6FF;
+    margin: 3px; 
+}
+.contact .container .box span:nth-child(1){margin-right: 22px;}
 .contact .container h2{
     font-family: "Bebas Neue"; font-size: 12rem; margin-bottom: 50px;
 }

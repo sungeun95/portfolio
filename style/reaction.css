@@ -72,6 +72,11 @@
     .product_landingPage .container .swiper_box #bottom_swiper .swiper-slide{height: 100px;}
     /* ====================================== Product_LandingPage : e */
     /* ====================================== contact : s */
+    .contact .container .box{margin-bottom: -15px;width: 42px; height: 42px;}
+    .contact .container .box span{
+        width: 15px; height: 15px;
+    }
+    .contact .container .box span:nth-child(1){margin-right: 17px;}
     .contact .container h2{font-size: 6.5rem; margin-bottom: 30px;}
     .contact .container>p{margin-bottom: 60px;}
     .contact .container .contact_means>p:last-child{width: 120px; }
