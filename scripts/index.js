@@ -36,7 +36,7 @@ const top_swiper = new Swiper('#top_swiper',{
     loop:true,/* 반복 */
     breakpoints: { //반응형 조건 속성
         300: { 
-            slidesPerView: 1, 
+            slidesPerView: 1.3, 
         },
         800: {
             slidesPerView: 2,
@@ -55,7 +55,7 @@ const bottom_swiper = new Swiper('#bottom_swiper',{
     loop:true,/* 반복 */
     breakpoints: { //반응형 조건 속성
         300: { 
-            slidesPerView: 2, 
+            slidesPerView: 2.2, 
         },
         800: {
             slidesPerView: 3,
