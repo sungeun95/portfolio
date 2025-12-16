@@ -145,15 +145,11 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:hover{
     background-color: #fff; color: #00D6FF; border: 1px solid #00D6FF;
 }
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3){
-    background-color: #F8F8F8; color: #888; border: 1px solid #F8F8F8;
-}
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:last-child{
+
+.responsive_project .swiper-slide .container .responsive_project_text .btn_box>.original{
     margin-right: 0px; background-color: #F8F8F8; color: #888; border: 1px solid #F8F8F8;
 }
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:last-child:hover,
-.responsive_project .swiper-slide .container .responsive_project_text .btn_box>a:nth-child(3):hover
-{
+.responsive_project .swiper-slide .container .responsive_project_text .btn_box>.original:hover{
     background-color: #888; color: #fff; border: 1px solid #888;
 }
 .responsive_project .swiper-slide .container .responsive_project_img{width: 62.5%;}
@@ -162,6 +158,7 @@ font-family: "Bebas Neue"; font-size: 12rem; color: #00D6FF;
 .responsive_project .hera .container .responsive_project_img p{background: url(../images/hera.jpg) center/cover;}
 .responsive_project .whitegown .container .responsive_project_img p{background: url(../images/whitegown.jpg) center/cover;}
 .responsive_project .landing_page .container .responsive_project_img p{background: url(../images/landing_page.jpg) center/cover;}
+.responsive_project .elim_networks .container .responsive_project_img p{background: url(../images/elimnetworks.jpg) center/cover;}
 /* ==================  responsive_project : e */ 
 /* ==================  Product_LandingPage : s */ 
 .product_landingPage{width: 100%;}
